@@ -19,7 +19,7 @@ function loveGrade() {
     } else if (loveScore > 30 && loveScore <= 50) {
       text.innerText = `The level of compatibility between ${yourName} and ${theirName} is ${loveScore}%. Work more on it`;
     } else if (loveScore > 50 && loveScore <= 70) {
-      text.innerText = `The love between ${yourName} and ${theirName} is ${loveScore}%. That's a beautiful relationship`;
+      text.innerText = `The level of compatibility between ${yourName} and ${theirName} is ${loveScore}%. That's a beautiful relationship`;
     } else {
       text.innerText =`${yourName} and ${theirName} have a compatibiblity of ${loveScore}%. You both are made for each other`;
     }
